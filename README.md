@@ -4,6 +4,18 @@
 
 `Python` · `TypeScript` · `Swift` · `RAG` · `MCP` · `Agent Engineering`
 
+## AI 工程项目（私有）
+
+以下三个项目分别维护，均可独立启动。当前为工程原型；离线演示与受控回归测试不代表生产部署或真实模型效果。仓库暂为私有，链接仅对获授权账号可见。
+
+| 项目 | 实现重点 | 本地回归测试 |
+|---|---|---|
+| [企业知识库 RAG](https://github.com/yuduxi123/enterprise-rag) | FastAPI、版本索引、权限过滤、BM25/RRF、引用检查 | 20 项通过 |
+| [Agent 任务平台](https://github.com/yuduxi123/agent-task-platform) | LangGraph、MCP、人工审批、Checkpoint、失败恢复 | 15 项通过 |
+| [LLM 评测与可观测平台](https://github.com/yuduxi123/llm-eval-observability) | 数据集/Prompt版本、评分覆盖率、失败行重试、基线、Trace | 24 项通过 |
+
+实现参考公开开源项目，具体来源和第三方许可证保留在各仓库 `docs/SOURCES.md` 与 `docs/licenses/`。
+
 ## 🧰 工具与 Skills
 
 | 项目 | 用途 | 使用边界 |
